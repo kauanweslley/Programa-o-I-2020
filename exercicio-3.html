@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+    <script>
+        function Habilidade(skills) { 
+            for (skill of skills) {
+                if (skill == "Javascript") {
+                    return true
+                }
+            }
+            return false            
+        }
+ 
+        var skills = ["Javascript", "ReactJS", "React Native"]
+        console.log(Habilidade(skills))
+
+
+    </script>
+    
+</body>
+</html>

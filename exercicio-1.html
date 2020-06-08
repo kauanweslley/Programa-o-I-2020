@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        function enderecoNovo(endereco) {
+            return (
+                "O usuário mora em " + endereco.cidade + " / " +
+                endereco.uf +
+                ", no bairro " + endereco.bairro +
+                ", na rua " + endereco.rua +
+                " com n° " + endereco.numero
+
+            )
+        }
+
+        /*parte pronta do prof(para estudar)*/
+        var endereco = { 
+            rua: "Rua dos Príncipes",  
+            numero: 123,  
+            bairro: "Centro",  
+            cidade: "Joinville",  
+            uf: "SC"
+        }
+        console.log(enderecoNovo(endereco))
+
+    </script>
+    
+</body>
+</html>
